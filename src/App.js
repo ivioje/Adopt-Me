@@ -1,5 +1,5 @@
 import React from 'react'
-import Searchparams from './searchParam'
+import Searchparams from './components/searchParam'
 
 const App = () => {
   return (

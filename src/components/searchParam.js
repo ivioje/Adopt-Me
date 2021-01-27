@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { ANIMALS } from '@frontendmasters/pet';
-import useDropdown from './useDropdown';
+import useDropdown from './useDropdown'
 
 const Searchparams = () => {
   const [location, setLocation] = useState('Seattle, WA');
   const [breeds, setBreeds] = useState([]);
   const [animal, AnimalDropdown] = useDropdown('Animal', 'dog', ANIMALS);
-  const [breed, BreedDropdown] = useDropdown('Breed', '',breeds);
+  const [breed, BreedDropdown] = useDropdown('Breed', '', breeds);
 
   return (
     <div className='search-params'>
